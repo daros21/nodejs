@@ -1,6 +1,15 @@
-const utils = require('./utils')
+// tworzenie serwera bez express
 
-utils.greeting();
-utils.add(2,8);
+const http = require('http')
+const port = process.env.PORT || 3000
 
 
+const handler = (request, response) => {
+    console.log('New user!')
+    response.end('Hello Node')
+}
+const server = http.createServer(handler)
+
+server.listen(port, () =>{
+    console.log('server is running...')
+})

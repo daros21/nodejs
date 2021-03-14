@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app_with_express.js"
+    "start": "tworzenie_serwera/node app_with_express.js"
   },
   "author": "",
   "license": "ISC"

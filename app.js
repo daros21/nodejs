@@ -2,7 +2,7 @@ const express = require('express')
 const port = process.env.PORT || 3000
 
 function generatetitle(){
-    return 'node js function'
+    return 'node js'
 }
 
 const app = express()

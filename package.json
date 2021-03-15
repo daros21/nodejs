@@ -12,8 +12,13 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
   "bugs": {
     "url": "https://github.com/daros21/nodejs/issues"
   },
   "homepage": "https://github.com/daros21/nodejs#readme"
+
 }

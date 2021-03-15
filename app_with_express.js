@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     
     res.render('index', {
         pageTitle: title,
-        body: 'hello node'
+        body: 'hello gugu'
     })
     
 })

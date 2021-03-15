@@ -1,11 +1,19 @@
 {
-  "name": "tworzenie_serwera",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app_with_express.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daros21/nodejs.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daros21/nodejs/issues"
+  },
+  "homepage": "https://github.com/daros21/nodejs#readme"
 }
